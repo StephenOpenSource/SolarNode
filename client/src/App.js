@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Menu from './modules/Menu';
+import Menu from './components/Menu';
+import Clock from './components/Clock';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         
       </header>
       <Menu name="New" />
+      <Clock />
     </div>
   );
 }
