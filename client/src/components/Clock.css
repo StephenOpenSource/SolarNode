@@ -1,0 +1,11 @@
+
+.clock-std {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 11px;
+}
+
+.clock-std h2 {
+    margin: 0;
+}
