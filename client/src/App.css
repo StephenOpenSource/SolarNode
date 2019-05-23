@@ -10,7 +10,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,6 +20,38 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.flex-container {
+  display: flex;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.react-button {
+  width: 100%;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.collapse {
+  height: 0;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
 }
 
 @keyframes App-logo-spin {
