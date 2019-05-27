@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Menu from './components/Menu';
 import Clock from './components/Clock';
+import SharedExpenses from './components/ExpenseTool/SharedExpenses';
 
 function App() {
   return (
@@ -26,8 +27,11 @@ function App() {
         </a>
         
       </header>
-      <Menu name="New" />
-      <Clock />
+        <div className="flex-container">
+        <Menu name="New" />
+        <Clock />
+        <SharedExpenses name="New" />
+      </div>
     </div>
   );
 }

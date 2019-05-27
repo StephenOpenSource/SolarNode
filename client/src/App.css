@@ -26,6 +26,10 @@
   display: flex;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #eee;
@@ -52,6 +56,28 @@
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+
+.simple-border {
+  border: 2px solid black;
+}
+
+.simple-border-right {
+  border: 2px solid black;
+  border-left: 0px;
+}
+
+.padded {
+  padding: 5px;
+}
+
+.fit-to-parent {
+  width: 100%;
+  flex: 1;
+}
+
+div {
+  background: lightgray;
 }
 
 @keyframes App-logo-spin {
