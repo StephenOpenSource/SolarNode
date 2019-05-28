@@ -26,6 +26,11 @@
   display: flex;
 }
 
+.flex-container-content {
+  display: flex;
+  min-width: 600px;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -74,6 +79,10 @@
 .fit-to-parent {
   width: 100%;
   flex: 1;
+}
+
+.ContentSize {
+  min-width: 400px;
 }
 
 div {
